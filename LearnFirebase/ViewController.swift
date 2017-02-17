@@ -29,15 +29,25 @@ class ViewController: UIViewController {
 //        print("Thieu Mao")
 //        print("usernameTextField", usernameTextField.text)
 //        print("passwordTextField", passwordTextField.text)
-        FIRAuth.auth()?.createUser(withEmail: usernameTextField.text ?? "thieu", password: passwordTextField.text ?? "123456", completion: { (user, error) in
+        FIRAuth.auth()?.createUser(withEmail: usernameTextField.text ?? "thieumao@gmail.com", password: passwordTextField.text ?? "123456", completion: { (user, error) in
             if let user = user {
                 print(user.displayName)
                 print(user.email)
                 print(user.photoURL)
                 print(user.uid)
-                self.errorLabel.text = "Login Successfully"
+                self.errorLabel.text = "Sign Up Successfully"
             } else {
-                self.errorLabel.text = "Login failure"
+                self.errorLabel.text = "Sign Up Failure"
+            }
+        })
+    }
+    
+    @IBAction func signIn(_ sender: Any) {
+        FIRAuth.auth()?.signIn(withEmail: usernameTextField.text ?? "thieumao@gmail.com", password: passwordTextField.text ?? "123456", completion: { (user, error) in
+            if let user = user {
+                self.errorLabel.text = "Sign In Success " + (user.email ?? "Ok")
+            } else {
+                self.errorLabel.text = "Sign In Failure"
             }
         })
     }

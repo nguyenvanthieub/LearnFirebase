@@ -46,18 +46,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WaQ-bW-Q7A">
+                                <rect key="frame" x="168" y="281" width="38" height="30"/>
+                                <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="signIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L9b-od-AFE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="BrL-Ve-eaV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="3da-2n-5pI"/>
                             <constraint firstItem="X66-17-Gjb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="FO3-2u-rj5"/>
                             <constraint firstAttribute="trailing" secondItem="X66-17-Gjb" secondAttribute="trailing" constant="30" id="Fjk-49-r9k"/>
+                            <constraint firstItem="WaQ-bW-Q7A" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LgI-ai-81j"/>
                             <constraint firstItem="BrL-Ve-eaV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="drM-vn-3ot"/>
                             <constraint firstItem="xEd-Td-yQu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="eNK-sw-I6T"/>
                             <constraint firstItem="X66-17-Gjb" firstAttribute="top" secondItem="LKa-D8-Ps3" secondAttribute="bottom" constant="30" id="jNh-1p-fug"/>
                             <constraint firstAttribute="trailing" secondItem="xEd-Td-yQu" secondAttribute="trailing" constant="30" id="kC9-OA-1JM"/>
                             <constraint firstAttribute="trailing" secondItem="BrL-Ve-eaV" secondAttribute="trailing" constant="30" id="l3l-r9-Ogf"/>
                             <constraint firstItem="xEd-Td-yQu" firstAttribute="top" secondItem="BrL-Ve-eaV" secondAttribute="bottom" constant="30" id="pYP-3H-LyW"/>
+                            <constraint firstItem="WaQ-bW-Q7A" firstAttribute="top" secondItem="X66-17-Gjb" secondAttribute="bottom" constant="30" id="xSy-33-cHG"/>
                             <constraint firstItem="LKa-D8-Ps3" firstAttribute="top" secondItem="xEd-Td-yQu" secondAttribute="bottom" constant="30" id="xkN-Fd-sWL"/>
                             <constraint firstItem="LKa-D8-Ps3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y7U-6y-kOT"/>
                         </constraints>
