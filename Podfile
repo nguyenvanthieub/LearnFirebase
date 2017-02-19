@@ -7,6 +7,9 @@ target 'LearnFirebase' do
 
   # Pods for LearnFirebase
   #pod 'Firebase/Core'
+  #register, update, login, forget password, delete account
   pod 'Firebase/Auth'
-
+  # store
+  pod 'Firebase'
+  pod 'Firebase/Storage'
 end
