@@ -498,8 +498,23 @@
                     <view key="view" contentMode="scaleToFill" id="iUn-Vx-0qA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="4ye-ZX-ehR">
+                                <rect key="frame" x="35.5" y="318.5" width="304" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="0UL-YG-IZT"/>
+                                </constraints>
+                            </slider>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4ye-ZX-ehR" firstAttribute="centerY" secondItem="iUn-Vx-0qA" secondAttribute="centerY" id="fgj-4g-3AU"/>
+                            <constraint firstItem="4ye-ZX-ehR" firstAttribute="centerX" secondItem="iUn-Vx-0qA" secondAttribute="centerX" id="hbD-73-Sf8"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="processBar" destination="4ye-ZX-ehR" id="e99-ZW-vru"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9S7-Fd-wT7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
