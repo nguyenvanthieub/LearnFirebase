@@ -14,9 +14,16 @@
 		30A9EDFA1E52D036006D2F36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A9EDF81E52D036006D2F36 /* LaunchScreen.storyboard */; };
 		30A9EE021E52D122006D2F36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30A9EE011E52D122006D2F36 /* GoogleService-Info.plist */; };
 		6FEF9E69EB8E37DE8390309E /* Pods_LearnFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B61703C8A2EBC7C876B488 /* Pods_LearnFirebase.framework */; };
+		F818979B1E6B04F900F7293B /* InputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81897991E6B04F900F7293B /* InputVC.swift */; };
+		F818979C1E6B04F900F7293B /* InputVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F818979A1E6B04F900F7293B /* InputVC.xib */; };
+		F81897A01E6B076400F7293B /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F818979E1E6B076400F7293B /* WebVC.swift */; };
+		F81897A11E6B076400F7293B /* WebVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F818979F1E6B076400F7293B /* WebVC.xib */; };
+		F81BA80E1E69DE8600DF5E40 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81BA80C1E69DE8600DF5E40 /* LoginVC.swift */; };
+		F81BA80F1E69DE8600DF5E40 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F81BA80D1E69DE8600DF5E40 /* LoginVC.xib */; };
 		F87874271E58CF2000C65FA3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87874261E58CF2000C65FA3 /* LoginViewController.swift */; };
 		F8B32D141E59718E0032341D /* StorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B32D131E59718E0032341D /* StorageViewController.swift */; };
 		F8B32D161E5977110032341D /* lethergo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F8B32D151E5977110032341D /* lethergo.mp3 */; };
+		F8C37C421E69BDC70031C956 /* WebviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C37C411E69BDC70031C956 /* WebviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +38,16 @@
 		72B61703C8A2EBC7C876B488 /* Pods_LearnFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85890063AA2D473E6224D79F /* Pods-LearnFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnFirebase/Pods-LearnFirebase.debug.xcconfig"; sourceTree = "<group>"; };
 		956762C042AB5FCAD0E509AA /* Pods-LearnFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnFirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnFirebase/Pods-LearnFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		F81897991E6B04F900F7293B /* InputVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InputVC.swift; path = ViewController/InputVC/InputVC.swift; sourceTree = "<group>"; };
+		F818979A1E6B04F900F7293B /* InputVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InputVC.xib; path = ViewController/InputVC/InputVC.xib; sourceTree = "<group>"; };
+		F818979E1E6B076400F7293B /* WebVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebVC.swift; path = ViewController/WebVC/WebVC.swift; sourceTree = "<group>"; };
+		F818979F1E6B076400F7293B /* WebVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WebVC.xib; path = ViewController/WebVC/WebVC.xib; sourceTree = "<group>"; };
+		F81BA80C1E69DE8600DF5E40 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = ViewController/LoginVC/LoginVC.swift; sourceTree = "<group>"; };
+		F81BA80D1E69DE8600DF5E40 /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginVC.xib; path = ViewController/LoginVC/LoginVC.xib; sourceTree = "<group>"; };
 		F87874261E58CF2000C65FA3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F8B32D131E59718E0032341D /* StorageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageViewController.swift; sourceTree = "<group>"; };
 		F8B32D151E5977110032341D /* lethergo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lethergo.mp3; sourceTree = "<group>"; };
+		F8C37C411E69BDC70031C956 /* WebviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +92,7 @@
 		30A9EDEE1E52D036006D2F36 /* LearnFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				F81BA8051E69DCCB00DF5E40 /* ViewController */,
 				F8B32D151E5977110032341D /* lethergo.mp3 */,
 				30A9EDEF1E52D036006D2F36 /* AppDelegate.swift */,
 				30A9EDF11E52D036006D2F36 /* ViewController.swift */,
@@ -88,6 +103,7 @@
 				30A9EE011E52D122006D2F36 /* GoogleService-Info.plist */,
 				F87874261E58CF2000C65FA3 /* LoginViewController.swift */,
 				F8B32D131E59718E0032341D /* StorageViewController.swift */,
+				F8C37C411E69BDC70031C956 /* WebviewViewController.swift */,
 			);
 			path = LearnFirebase;
 			sourceTree = "<group>";
@@ -98,6 +114,43 @@
 				72B61703C8A2EBC7C876B488 /* Pods_LearnFirebase.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F81897971E6B04CA00F7293B /* InputVC */ = {
+			isa = PBXGroup;
+			children = (
+				F81897991E6B04F900F7293B /* InputVC.swift */,
+				F818979A1E6B04F900F7293B /* InputVC.xib */,
+			);
+			name = InputVC;
+			sourceTree = "<group>";
+		};
+		F818979D1E6B074A00F7293B /* WebVC */ = {
+			isa = PBXGroup;
+			children = (
+				F818979E1E6B076400F7293B /* WebVC.swift */,
+				F818979F1E6B076400F7293B /* WebVC.xib */,
+			);
+			name = WebVC;
+			sourceTree = "<group>";
+		};
+		F81BA8051E69DCCB00DF5E40 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F818979D1E6B074A00F7293B /* WebVC */,
+				F81897971E6B04CA00F7293B /* InputVC */,
+				F81BA80B1E69DE6C00DF5E40 /* LoginVC */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		F81BA80B1E69DE6C00DF5E40 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				F81BA80C1E69DE8600DF5E40 /* LoginVC.swift */,
+				F81BA80D1E69DE8600DF5E40 /* LoginVC.xib */,
+			);
+			name = LoginVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +216,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F818979C1E6B04F900F7293B /* InputVC.xib in Resources */,
+				F81897A11E6B076400F7293B /* WebVC.xib in Resources */,
+				F81BA80F1E69DE8600DF5E40 /* LoginVC.xib in Resources */,
 				30A9EDFA1E52D036006D2F36 /* LaunchScreen.storyboard in Resources */,
 				30A9EE021E52D122006D2F36 /* GoogleService-Info.plist in Resources */,
 				30A9EDF71E52D036006D2F36 /* Assets.xcassets in Resources */,
@@ -227,8 +283,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F87874271E58CF2000C65FA3 /* LoginViewController.swift in Sources */,
+				F8C37C421E69BDC70031C956 /* WebviewViewController.swift in Sources */,
+				F81BA80E1E69DE8600DF5E40 /* LoginVC.swift in Sources */,
 				30A9EDF21E52D036006D2F36 /* ViewController.swift in Sources */,
 				F8B32D141E59718E0032341D /* StorageViewController.swift in Sources */,
+				F81897A01E6B076400F7293B /* WebVC.swift in Sources */,
+				F818979B1E6B04F900F7293B /* InputVC.swift in Sources */,
 				30A9EDF01E52D036006D2F36 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,7 +414,7 @@
 				DEVELOPMENT_TEAM = Z4ZNZ62PTW;
 				INFOPLIST_FILE = LearnFirebase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.haynhanh.LearnFirebase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thieumao.iotfirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -368,7 +428,7 @@
 				DEVELOPMENT_TEAM = Z4ZNZ62PTW;
 				INFOPLIST_FILE = LearnFirebase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.haynhanh.LearnFirebase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thieumao.iotfirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
