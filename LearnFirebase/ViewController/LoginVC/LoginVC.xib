@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginVC" customModule="LearnFirebase" customModuleProvider="target">
+            <connections>
+                <outlet property="emailTextField" destination="FFO-Ah-XFX" id="Wo0-Zl-hWy"/>
+                <outlet property="passwordTextField" destination="PRS-pp-1U7" id="75U-pH-Ra5"/>
+                <outlet property="resultLabel" destination="eUU-5Z-c8W" id="rs3-m2-pea"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dsk-eS-d0Q">
+                    <rect key="frame" x="117" y="317.5" width="141" height="32"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="Login with Firebase"/>
+                    <connections>
+                        <action selector="loginFirebase:" destination="-1" eventType="touchUpInside" id="Pnd-RP-tPv"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PRS-pp-1U7">
+                    <rect key="frame" x="35" y="252.5" width="305" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FFO-Ah-XFX">
+                    <rect key="frame" x="35" y="187.5" width="305" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits" keyboardType="emailAddress" enablesReturnKeyAutomatically="YES"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wGX-G9-uTk">
+                    <rect key="frame" x="106.5" y="384.5" width="161" height="32"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="Register with Firebase"/>
+                    <connections>
+                        <action selector="registerFirebase:" destination="-1" eventType="touchUpInside" id="iS9-bK-7UY"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUU-5Z-c8W">
+                    <rect key="frame" x="35" y="451.5" width="305" height="19.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.96807843446731567" green="0.98887544870376587" blue="0.95975404977798462" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="PRS-pp-1U7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="35" id="ACf-VT-LXh"/>
+                <constraint firstItem="Dsk-eS-d0Q" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Fb5-wL-CXU"/>
+                <constraint firstItem="eUU-5Z-c8W" firstAttribute="top" secondItem="wGX-G9-uTk" secondAttribute="bottom" constant="35" id="GIf-mf-Td4"/>
+                <constraint firstAttribute="trailing" secondItem="FFO-Ah-XFX" secondAttribute="trailing" constant="35" id="Gp6-Yf-3iq"/>
+                <constraint firstItem="Dsk-eS-d0Q" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="LA3-WL-hwv"/>
+                <constraint firstAttribute="trailing" secondItem="eUU-5Z-c8W" secondAttribute="trailing" constant="35" id="PvH-C0-NuP"/>
+                <constraint firstItem="PRS-pp-1U7" firstAttribute="top" secondItem="FFO-Ah-XFX" secondAttribute="bottom" constant="35" id="QS0-H5-5Rc"/>
+                <constraint firstAttribute="trailing" secondItem="PRS-pp-1U7" secondAttribute="trailing" constant="35" id="TEU-Ym-bOe"/>
+                <constraint firstItem="FFO-Ah-XFX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="35" id="WmR-Ro-Fym"/>
+                <constraint firstItem="wGX-G9-uTk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="mLA-4q-Rga"/>
+                <constraint firstItem="Dsk-eS-d0Q" firstAttribute="top" secondItem="PRS-pp-1U7" secondAttribute="bottom" constant="35" id="oj8-cM-w1G"/>
+                <constraint firstItem="wGX-G9-uTk" firstAttribute="top" secondItem="Dsk-eS-d0Q" secondAttribute="bottom" constant="35" id="z9D-Kk-hrr"/>
+                <constraint firstItem="eUU-5Z-c8W" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="35" id="zld-CF-zsV"/>
+            </constraints>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="XA7-He-Hqp" appends="YES" id="YtL-Pb-fbx"/>
+            </connections>
+            <point key="canvasLocation" x="32.5" y="85.5"/>
+        </view>
+        <tapGestureRecognizer id="XA7-He-Hqp">
+            <connections>
+                <action selector="onTapClicked:" destination="-1" id="wKj-SW-bZa"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InputVC" customModule="LearnFirebase" customModuleProvider="target">
+            <connections>
+                <outlet property="inputTextField" destination="d58-im-SDd" id="Eph-GG-8iU"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vck-WD-pUs">
+                    <rect key="frame" x="172" y="315.5" width="30" height="36"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <state key="normal" title="Go"/>
+                    <connections>
+                        <action selector="onGoButtonClicked:" destination="-1" eventType="touchUpInside" id="vBV-M8-YI9"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input url here ..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d58-im-SDd">
+                    <rect key="frame" x="36" y="249.5" width="303" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits" keyboardType="URL" enablesReturnKeyAutomatically="YES"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="d58-im-SDd" secondAttribute="trailing" constant="36" id="Gaq-mx-PU9"/>
+                <constraint firstItem="vck-WD-pUs" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="IF8-iH-1RJ"/>
+                <constraint firstItem="vck-WD-pUs" firstAttribute="top" secondItem="d58-im-SDd" secondAttribute="bottom" constant="36" id="U00-iA-a7z"/>
+                <constraint firstItem="d58-im-SDd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="36" id="ney-MR-r7G"/>
+                <constraint firstItem="vck-WD-pUs" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="umV-BW-g3g"/>
+            </constraints>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="JNF-E6-jem" appends="YES" id="9w8-oR-PoW"/>
+            </connections>
+        </view>
+        <tapGestureRecognizer id="JNF-E6-jem">
+            <connections>
+                <action selector="onTapClicked:" destination="-1" id="n3v-R8-jHG"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>
