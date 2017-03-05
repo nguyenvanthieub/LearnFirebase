@@ -19,7 +19,7 @@ class WebVC: UIViewController {
         if let u = requestUrl {
             var url = u
             if !url.hasPrefix("http") {
-                url = "https://" + url
+                url = "http://" + url
             }
             if let urlRequest = URL(string: url) {
                 webView.loadRequest(URLRequest(url: urlRequest))
