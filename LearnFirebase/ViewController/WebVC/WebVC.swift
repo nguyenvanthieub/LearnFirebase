@@ -17,11 +17,11 @@ class WebVC: UIViewController {
         super.viewDidLoad()
         webView.delegate = self
         if let u = requestUrl {
-            var url = u
-            if !url.hasPrefix("http") {
-                url = "http://" + url
-            }
-            if let urlRequest = URL(string: url) {
+//            var url = u
+//            if !url.hasPrefix("http") {
+//                url = "http://" + url
+//            }
+            if let urlRequest = URL(string: u) {
                 webView.loadRequest(URLRequest(url: urlRequest))
             }
         }

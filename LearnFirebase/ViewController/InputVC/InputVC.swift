@@ -28,7 +28,8 @@ class InputVC: UIViewController {
     }
     
     @IBAction func onGoButtonClicked(_ sender: Any) {
-        let webVC = WebVC()
+//        let webVC = WebVC()
+        let webVC = MKWebVC()
         if let input = inputTextField.text, input.characters.count > 0 {
             webVC.requestUrl = input
         }

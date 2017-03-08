@@ -21,6 +21,8 @@
 		F81BA80E1E69DE8600DF5E40 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81BA80C1E69DE8600DF5E40 /* LoginVC.swift */; };
 		F81BA80F1E69DE8600DF5E40 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F81BA80D1E69DE8600DF5E40 /* LoginVC.xib */; };
 		F87874271E58CF2000C65FA3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87874261E58CF2000C65FA3 /* LoginViewController.swift */; };
+		F8A55DD91E70AC1800970FA6 /* MKWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A55DD71E70AC1800970FA6 /* MKWebVC.swift */; };
+		F8A55DDA1E70AC1800970FA6 /* MKWebVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8A55DD81E70AC1800970FA6 /* MKWebVC.xib */; };
 		F8B32D141E59718E0032341D /* StorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B32D131E59718E0032341D /* StorageViewController.swift */; };
 		F8B32D161E5977110032341D /* lethergo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F8B32D151E5977110032341D /* lethergo.mp3 */; };
 		F8C37C421E69BDC70031C956 /* WebviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C37C411E69BDC70031C956 /* WebviewViewController.swift */; };
@@ -45,6 +47,8 @@
 		F81BA80C1E69DE8600DF5E40 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = ViewController/LoginVC/LoginVC.swift; sourceTree = "<group>"; };
 		F81BA80D1E69DE8600DF5E40 /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginVC.xib; path = ViewController/LoginVC/LoginVC.xib; sourceTree = "<group>"; };
 		F87874261E58CF2000C65FA3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F8A55DD71E70AC1800970FA6 /* MKWebVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MKWebVC.swift; path = ViewController/MKWebVC/MKWebVC.swift; sourceTree = "<group>"; };
+		F8A55DD81E70AC1800970FA6 /* MKWebVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MKWebVC.xib; path = ViewController/MKWebVC/MKWebVC.xib; sourceTree = "<group>"; };
 		F8B32D131E59718E0032341D /* StorageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageViewController.swift; sourceTree = "<group>"; };
 		F8B32D151E5977110032341D /* lethergo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lethergo.mp3; sourceTree = "<group>"; };
 		F8C37C411E69BDC70031C956 /* WebviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebviewViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +141,7 @@
 		F81BA8051E69DCCB00DF5E40 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F8A55DD61E70ABEF00970FA6 /* MKWebVC */,
 				F818979D1E6B074A00F7293B /* WebVC */,
 				F81897971E6B04CA00F7293B /* InputVC */,
 				F81BA80B1E69DE6C00DF5E40 /* LoginVC */,
@@ -151,6 +156,15 @@
 				F81BA80D1E69DE8600DF5E40 /* LoginVC.xib */,
 			);
 			name = LoginVC;
+			sourceTree = "<group>";
+		};
+		F8A55DD61E70ABEF00970FA6 /* MKWebVC */ = {
+			isa = PBXGroup;
+			children = (
+				F8A55DD71E70AC1800970FA6 /* MKWebVC.swift */,
+				F8A55DD81E70AC1800970FA6 /* MKWebVC.xib */,
+			);
+			name = MKWebVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +233,7 @@
 				F818979C1E6B04F900F7293B /* InputVC.xib in Resources */,
 				F81897A11E6B076400F7293B /* WebVC.xib in Resources */,
 				F81BA80F1E69DE8600DF5E40 /* LoginVC.xib in Resources */,
+				F8A55DDA1E70AC1800970FA6 /* MKWebVC.xib in Resources */,
 				30A9EDFA1E52D036006D2F36 /* LaunchScreen.storyboard in Resources */,
 				30A9EE021E52D122006D2F36 /* GoogleService-Info.plist in Resources */,
 				30A9EDF71E52D036006D2F36 /* Assets.xcassets in Resources */,
@@ -283,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F87874271E58CF2000C65FA3 /* LoginViewController.swift in Sources */,
+				F8A55DD91E70AC1800970FA6 /* MKWebVC.swift in Sources */,
 				F8C37C421E69BDC70031C956 /* WebviewViewController.swift in Sources */,
 				F81BA80E1E69DE8600DF5E40 /* LoginVC.swift in Sources */,
 				30A9EDF21E52D036006D2F36 /* ViewController.swift in Sources */,
